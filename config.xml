@@ -1,0 +1,15 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{823ab638-3102-4b3e-b792-50caa7525018}</AddInID><Description>This tool is used to measure the radius of curvature of sinuous features</Description><Version>0.1</Version><Image /><Author>Ryan Anderson</Author><Company>USGS</Company><Date>07/06/2016</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="Rcurve_tool_addin.py" namespace="Rcurve_tool_addin"><ArcMap>
+    <Commands>
+        <Button caption="[Select]" category="Python Addin" class="ButtonClass4" id="Rcurve_tool_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        <Tool caption="[Measure]" category="Python Addin" class="ToolClass7" id="Rcurve_tool_addin.tool" image="" message="" tip=""><Help heading="" /></Tool>
+        <Button caption="[Record]" category="Python Addin" class="ButtonClass6" id="Rcurve_tool_addin.button_2" image="" message="" tip=""><Help heading="" /></Button>
+        
+		</Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Toolbar" category="Python Addin" id="Rcurve_tool_addin.toolbar" showInitially="true"><Items><Button refID="Rcurve_tool_addin.button" /><Button refID="Rcurve_tool_addin.button_1" /><Tool refID="Rcurve_tool_addin.tool" /><Button refID="Rcurve_tool_addin.button_2" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
